@@ -1,0 +1,32 @@
+.post_image 
+{
+    width: 100%;
+    /* object-fit:contain make the element responsive */
+    object-fit: contain;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+
+}
+.post_header 
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.post_avatar 
+{
+    margin-right: 10px;
+    
+}
+.post_text 
+{
+    padding: 10px;
+    font-weight: normal;
+}
+.post 
+{
+    background-color: white;
+    max-width: 550px;
+    border: 1px solid lightgray;
+    margin-bottom: 45px;
+}
